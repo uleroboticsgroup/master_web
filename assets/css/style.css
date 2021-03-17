@@ -10,9 +10,11 @@
 --------------------------------------------------------------*/
 
 :root {
-  --original-orange: var(--new-blue);
-  --new-blue: #5C9EAD;
-  --new-blue-hover: #6aa0ac;
+  --original-orange: #ef6603;
+  --blue: #5C9EAD;
+  --blue-hover: #6aa0ac;
+  --accent-color: var(--blue);
+  --accent-color-hover: var(--blue-hover);
 }
 
 /*--------------------------------------------------------------
