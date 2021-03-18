@@ -13,8 +13,15 @@
   --original-orange: #ef6603;
   --blue: #5C9EAD;
   --blue-hover: #6aa0ac;
-  --accent-color: var(--blue);
-  --accent-color-hover: var(--blue-hover);
+  --metallic-seaweed: #028090;
+  --metallic-seaweed-hover: #007888;
+  --yellow-orange: #FFB140;
+  --yellow-orange-hover: #FFB140;
+  --cadet-blue: #639FAB;
+  --cadet-blue-hover: #5c97a3;
+
+  --accent-color: var(--cadet-blue);
+  --accent-color-hover: var(--cadet-blue-hover);
 }
 
 /*--------------------------------------------------------------
@@ -64,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #fc7c1f;
+  background: var(--accent-color-hover);
   color: #fff;
 }
 
@@ -530,7 +537,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #fd9042;
+  background: var(--accent-color);
   margin: 4px 10px;
 }
 
@@ -1574,7 +1581,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #bd5102;
+  background: var(--accent-color-hover);
   color: #fff;
   text-decoration: none;
 }
