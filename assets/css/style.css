@@ -25,6 +25,29 @@
 }
 
 /*--------------------------------------------------------------
+# Añadido por Alexis
+--------------------------------------------------------------*/
+
+.logo-container {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100px;
+  width: 100%;
+}
+
+.logo-container img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.centered {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
