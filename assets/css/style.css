@@ -47,6 +47,15 @@
   text-align: center;
 }
 
+.tab-link {
+  height: 70px;
+}
+
+.tab-text {
+  vertical-align: middle;
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
